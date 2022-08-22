@@ -1,0 +1,119 @@
+.eros_container {
+  margin: 3rem auto;
+}
+
+.eros img {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  filter: drop-shadow(2px 10px 4px #d5d5d5);
+}
+
+.merry_container,
+.pho_container {
+  margin: 10rem auto;
+}
+
+.merry img {
+  display: block;
+  justify-content: center;
+  margin: 0rem 20rem;
+  width: 50%;
+  filter: drop-shadow(2px 10px 4px #d5d5d5);
+}
+
+.pho img {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  filter: drop-shadow(2px 10px 4px #d5d5d5);
+}
+
+.matilda_container {
+  background-color: black;
+  display: flex;
+}
+
+.matilda {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.matilda img {
+  width: 50%;
+  margin: auto;
+}
+
+.drawing_container {
+  background-color: black;
+  padding-bottom: 40px;
+}
+
+.drawing_1 img,
+.drawing_2 img,
+.drawing_3 img,
+.drawing_4 img,
+.drawing_5 img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.eyes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.lips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+/* MOBILE, ~ 767 */
+
+@media screen and (max-width: 767px) {
+  .eros img {
+    width: 70%;
+  }
+
+  .merry img,
+  .pho img {
+    width: 80%;
+    margin: auto;
+  }
+
+  .matilda img {
+    width: 100%;
+  }
+
+  .merry_container,
+  .pho_container {
+    margin: 4rem auto;
+  }
+
+  .eyes {
+    width: 100%;
+  }
+  .lips {
+    width: 100%;
+  }
+
+  .drawing_1 img,
+  .drawing_2 img,
+  .drawing_3 img,
+  .drawing_4 img,
+  .drawing_5 img {
+    width: 100%;
+    padding: 1rem;
+  }
+}
