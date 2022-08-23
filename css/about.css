@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 767px) {
   .about {
-    padding: 1rem;
+    padding-top: 1rem;
     display: block;
     margin: auto;
   }
