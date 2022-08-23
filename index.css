@@ -25,6 +25,11 @@
   src: url('./fonts/Pretendard-ExtraLight.woff') format('woff');
 }
 
+@font-face {
+  font-family: Ygro-book;
+  src: url('./fonts/YgroSansBeta-Book.woff') format('woff');
+}
+
 /* Colours --------------------------------- */
 :root {
   --text-color: #101010;
@@ -125,7 +130,7 @@ a {
   align-items: center;
   width: 80%;
   margin: auto;
-  padding: 6rem 2rem;
+  padding: 7rem 2rem 8rem 2rem;
 }
 
 .main_title {
@@ -134,7 +139,7 @@ a {
   font-family: Pretendard-ExtraLight;
   font-weight: 100;
   font-size: 19px;
-  line-height: 28px;
+  line-height: 29px;
   color: rgb(34, 36, 34);
 }
 
@@ -148,6 +153,13 @@ a {
   margin-bottom: 1.4rem;
 }
 
+.heading {
+  font-family: Ygro-Book;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
 .logo_container {
   width: 100%;
   display: grid;
@@ -158,9 +170,10 @@ a {
   grid-template-rows: 1fr 1fr;
 }
 
-.s_1 {
+.myLogos {
   width: 100%;
   text-align: center;
+  border-radius: 6px;
 }
 
 .row {
@@ -176,11 +189,14 @@ a {
 
 .row .row_1 {
   padding-right: 1rem;
+  border-radius: 6px;
 }
 
 .row .row_2 {
   padding-left: 1rem;
+  border-radius: 6px;
 }
+
 /* Footer --------------------------------- */
 
 .social_link,
@@ -220,6 +236,68 @@ a {
   fill: blue;
   width: 24px;
   height: 24px;
+}
+
+/* Modal Images */
+#myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 72%); /* Black w/ opacity */
 }
 
 /* MOBILE, ~ 767 */
@@ -264,6 +342,7 @@ a {
   /* fixed nav bar */
   .navbar {
     position: fixed;
+
     top: 0;
     left: 0;
     right: 0;
@@ -303,6 +382,19 @@ a {
     border-bottom: 1px solid #e2e2e2;
   }
 
+  .navbar__dropdown {
+    position: fixed;
+    width: 100%;
+    background-color: red;
+    display: none;
+  }
+  .dropdown.active {
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+    border-bottom: 1px solid #e2e2e2;
+  }
+
   .nav_menu li:hover {
     border-bottom: 1px solid transparent;
   }
@@ -315,5 +407,10 @@ a {
   .linkdin path,
   .behance path {
     fill: #101010;
+  }
+
+  /* modal */
+  .modal-content {
+    width: 80%;
   }
 }
