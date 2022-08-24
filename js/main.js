@@ -34,6 +34,27 @@ for (var i = 0; i < images.length; i++) {
 
 // Get the <span> element that closes the modal
 
-modal.addEventListener('click', (e) => {
+modal.addEventListener('click', () => {
   modal.style.display = 'none';
 });
+
+//free load
+const imagesLoad = [];
+function preload() {
+  for (let i = 0; i < arguments.length; i++) {
+    imagesLoad[i] = new Image();
+    imagesLoad[i].src = preload.arguments[i];
+  }
+}
+
+preload(
+  '../img/art/drawing_1.png',
+  '../img/art/drawing_2.png',
+  '../img/art/drawing_3.png',
+  '../img/art/drawing_4.png',
+  '../img/art/drawing_5.png',
+  '../img/art/eros1.png',
+  '../img/art/matilda.jpg',
+  '../img/art/pho.jpg',
+  '../img/art/merry.jpg'
+);

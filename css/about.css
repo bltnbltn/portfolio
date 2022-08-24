@@ -38,11 +38,12 @@
 }
 
 .emoji_flex p {
-  margin: 4px;
+  margin: 5px;
 }
 
 .btn_resume {
   cursor: pointer;
+  font-size: 14px;
   margin-top: 2rem;
   width: 170px;
   height: 48px;
