@@ -78,4 +78,8 @@
     justify-content: center;
     margin: auto;
   }
+
+  .btn_resume {
+    font-size: 12px;
+  }
 }
