@@ -322,6 +322,24 @@ a {
     top: 0px;
   }
 }
+
+.bottom_fadeIn {
+  animation-name: example2;
+  animation-duration: 2s;
+  position: relative;
+}
+
+@keyframes example2 {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
 /* MOBILE, ~ 767 */
 
 @media screen and (max-width: 767px) {
