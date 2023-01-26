@@ -26,8 +26,8 @@
 }
 
 @font-face {
-  font-family: Ygro-book;
-  src: url('./fonts/YgroSansBeta-Book.woff') format('woff');
+  font-family: Unbounded-Light;
+  src: url('./fonts/Unbounded-Light.ttf') format('woff');
 }
 
 /* Colours --------------------------------- */
@@ -160,7 +160,7 @@ a {
 }
 
 .heading {
-  font-family: Ygro-Book;
+  font-family: Unbounded-Light;
   font-size: 16px;
   margin-bottom: 1rem;
   color: var(--text-color);
