@@ -58,6 +58,8 @@
   filter: drop-shadow(2px 6px 0px var(--accent-color));
 }
 
+/* MOBILE, ~ 767 */
+
 @media screen and (max-width: 767px) {
   .about {
     padding-top: 3rem;

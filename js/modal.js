@@ -1,4 +1,4 @@
-// Get the modal
+// Get the modal For Branding Design
 
 var modal = document.getElementById('myModal');
 

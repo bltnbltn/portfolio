@@ -1,3 +1,4 @@
+// Hamburger Menu
 const toggleBtn = document.querySelector('.navbar_toggleBtn');
 const menu = document.querySelector('.nav_menu');
 const navbar = document.querySelector('.navbar');
@@ -13,7 +14,7 @@ toggleBtn.addEventListener('click', (e) => {
   }
 });
 
-//free load
+//free load Images
 const imagesLoad = [];
 function preload() {
   for (let i = 0; i < arguments.length; i++) {
@@ -34,6 +35,7 @@ preload(
   '../img/art/merry.jpg'
 );
 
+// Activating Nav Bar
 function clickSingleA(a) {
   items = document.querySelectorAll('.single.active');
 
