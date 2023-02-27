@@ -136,7 +136,7 @@ a {
   align-items: center;
   width: 80%;
   margin: auto;
-  padding: 7rem 2rem 8rem 2rem;
+  padding: 4rem 2rem 4rem 2rem;
 }
 
 .main_title {
@@ -144,13 +144,13 @@ a {
   text-align: center;
   font-family: Pretendard-ExtraLight;
   font-weight: 100;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 145%;
   color: rgb(34, 36, 34);
 }
 
-.main_title span {
-  font-family: Pretendard-Bold;
+.myName {
+  font-family: Pretendard-Medium;
 }
 
 /* Project --------------------------------- */
@@ -345,6 +345,9 @@ a {
 @media screen and (max-width: 767px) {
   .wrapper {
     width: 90%;
+  }
+  .main_title {
+    font-size: 19px;
   }
 
   .hero {
