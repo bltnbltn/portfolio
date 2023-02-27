@@ -97,18 +97,22 @@ a {
 }
 
 .nav_menu li a {
-  color: var(--text-color);
+  color: grey;
   text-decoration: none;
 }
 
-.nav_menu li:hover {
-  border-bottom: var(--accent-color) solid 1px;
+.nav_menu li a:hover {
+  color: #101010;
 }
 
+.nav_menu a.active:hover {
+  color: #39a25c;
+}
 .nav_menu a.active {
   border-bottom: transparent solid 1px;
   padding-bottom: 4px;
-  border-bottom: var(--accent-color) solid 1px;
+  color: #39a25c;
+  font-family: pretendard-Medium;
 }
 
 .nav_deco {
@@ -144,8 +148,8 @@ a {
   text-align: center;
   font-family: Pretendard-ExtraLight;
   font-weight: 100;
-  font-size: 19px;
-  line-height: 29px;
+  font-size: 22px;
+  line-height: 145%;
   color: rgb(34, 36, 34);
 }
 
