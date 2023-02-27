@@ -81,7 +81,7 @@ a {
 
 .nav_menu {
   display: flex;
-  font-family: Pretendard-Light;
+  font-family: Pretendard-Regular;
   font-size: 15px;
   margin: 20px;
   padding-left: 0;
@@ -97,22 +97,18 @@ a {
 }
 
 .nav_menu li a {
-  color: grey;
+  color: var(--text-color);
   text-decoration: none;
 }
 
-.nav_menu li a:hover {
-  color: #101010;
+.nav_menu li:hover {
+  border-bottom: var(--accent-color) solid 1px;
 }
 
-.nav_menu a.active:hover {
-  color: #39a25c;
-}
 .nav_menu a.active {
   border-bottom: transparent solid 1px;
   padding-bottom: 4px;
-  color: #39a25c;
-  font-family: pretendard-Medium;
+  border-bottom: var(--accent-color) solid 1px;
 }
 
 .nav_deco {
