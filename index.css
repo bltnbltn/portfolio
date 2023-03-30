@@ -175,7 +175,7 @@ a {
   font-weight: 300;
   font-style: normal;
   font-size: 50px;
-  line-height: 140%;
+  line-height: 130%;
   color: rgb(34, 36, 34);
 }
 
@@ -376,10 +376,11 @@ a {
     font-weight: 300;
     font-style: normal;
     font-size: 30px;
+    line-height: 120%;
   }
 
   .hero {
-    max-width: 80%;
+    max-width: 90%;
     margin-top: 2rem;
     padding: 4rem 0rem;
   }
