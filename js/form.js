@@ -13,5 +13,13 @@ function sendEmail() {
       document.getElementById('phone').value +
       '<br> Message: ' +
       document.getElementById('message').value,
-  }).then((message) => alert(message));
+  }).then((message) => {
+    if (message === 'OK') {
+      alert('Your email was sent successfully!');
+    } else {
+      alert(
+        'Sorry, there was an error sending your email. Please try again later.'
+      );
+    }
+  });
 }
