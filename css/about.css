@@ -1,35 +1,39 @@
 .about {
+  /* width: 90%; */
   display: flex;
   justify-content: center;
+  margin: 6rem auto;
 }
 
+.about_img {
+  margin: auto 0;
+  
+}
 .about_img img {
-  width: 360px;
-}
-
-.about {
-  margin-top: 3rem;
+  width: 380px;
 }
 
 .about_title {
   font-family: Pretendard-Light;
-  min-width: 40%;
-  width: 50%;
-  margin: 2rem 0rem 2rem 3rem;
+  margin: 2rem 0rem 2rem 4rem;
 }
 
 .about_title h1 {
-  font-size: 32px;
+  font-size: 50px;
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
 }
 
 .about_title p {
+  max-width: 480px;
   margin-top: 1rem;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 160%;
 }
 
 .about_title h2 {
-  font-size: 22px;
+  font-size: 18px;
+  letter-spacing: 2px;
   margin: 2rem 0rem 0.5rem 0rem;
 }
 
@@ -41,30 +45,107 @@
   margin: 5px;
 }
 
-.btn_resume {
-  cursor: pointer;
-  font-size: 14px;
-  margin-top: 2rem;
-  width: 170px;
-  height: 48px;
-  background-color: rgb(255, 255, 245);
-  border: 2px solid var(--accent-color);
-  border-radius: 4px;
-  color: var(--accent-color);
-  font-family: pretendard-Bold;
+.arrow {
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
-.btn_resume:hover {
-  filter: drop-shadow(2px 6px 0px var(--accent-color));
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+/* Contact form --------------------------------- */
+
+.container {
+  margin-top: 100px;
+  border-top: 0.5px solid var(--accent-color);
+  background: #e7ede7;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Pretendard-Regular;
+}
+
+form {
+  background: rgb(255, 255, 255);
+  padding: 2vw 4vw;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3 {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  font-family: Pretendard-Regular;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid var(--accent-color);
+}
+
+form button {
+  padding: 15px;
+  background: var(--accent-color);
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 20px auto 0;
+  border-radius: 4px;
 }
 
 /* MOBILE, ~ 767 */
 
 @media screen and (max-width: 767px) {
   .about {
+    width: 90%;
     padding-top: 3rem;
     display: block;
     margin: auto;
+  }
+
+  .about_title p {
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 145%;
+  }
+
+  .about_title h1 {
+    font-size: 50px;
+    margin: 2rem 0rem -0.5rem 0rem;
   }
 
   .about_title {
@@ -73,7 +154,13 @@
     padding: 1rem;
     margin: auto;
   }
+
+  .container{
+    margin-top: 20px;
+  }
+
   .about_img img {
+    border-radius: 60px;
     padding: 1rem;
     width: 100%;
     display: flex;
@@ -81,7 +168,16 @@
     margin: auto;
   }
 
-  .btn_resume {
-    font-size: 13px;
+  form {
+    padding: 20px;
+    margin: 20px;
   }
-}
+
+  form h3 {
+    font-family: ivypresto-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
