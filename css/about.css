@@ -7,7 +7,6 @@
 
 .about_img {
   margin-top: 30px;
-  
 }
 .about_img img {
   max-width: 380px;
@@ -52,7 +51,6 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
-
 
 @keyframes floating {
   0% {
@@ -156,7 +154,7 @@ form button {
     margin: auto;
   }
 
-  .container{
+  .container {
     margin-top: 20px;
   }
 
@@ -181,3 +179,4 @@ form button {
     color: var(--text-color);
     margin-bottom: 20px;
   }
+}

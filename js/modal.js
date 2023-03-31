@@ -20,7 +20,6 @@ for (var i = 0; i < images.length; i++) {
 }
 
 // Get the <span> element that closes the modal
-
 modal.addEventListener('click', () => {
   modal.style.display = 'none';
 });

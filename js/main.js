@@ -14,7 +14,7 @@ toggleBtn.addEventListener('click', (e) => {
   }
 });
 
-//free load Images
+//Free load Images
 const imagesLoad = [];
 function preload() {
   for (let i = 0; i < arguments.length; i++) {
