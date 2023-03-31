@@ -1,6 +1,6 @@
 function sendEmail() {
   Email.send({
-    SecureToken: 'fa0869c5-e072-40e7-806f-6b00ece51787',
+    SecureToken: '196024e1-0498-4482-8545-203734ddf7c2',
     To: 'yuralee1713@gmail.com',
     From: document.getElementById('email').value,
     Subject: "Message from yura's Web Portfolio",
