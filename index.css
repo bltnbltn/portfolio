@@ -286,7 +286,7 @@ a {
   max-width: 600px;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
+/* Caption of Modal Image (Image Text) - Same Width as the Image
 #caption {
   margin: auto;
   display: block;
@@ -296,24 +296,7 @@ a {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
+} */
 
 /* The Modal (background) */
 .modal {
