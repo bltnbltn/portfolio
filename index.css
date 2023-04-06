@@ -184,24 +184,6 @@ a {
   margin-bottom: 5rem;
 }
 
-.heading {
-  font-family: Pretendard-Regular;
-  letter-spacing: 2px;
-  font-size: 14px;
-  margin-bottom: 1rem;
-  color: var(--text-color);
-}
-
-.logo_container {
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  gap: 2rem;
-  margin: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-
 .myLogos {
   width: 100%;
   text-align: center;
@@ -367,6 +349,9 @@ a {
     padding: 4rem 0rem;
   }
 
+  .project_container {
+    margin-bottom: 2rem;
+  }
   .myLogo {
     font-size: 20px;
     font-family: Pretendard-Medium;
@@ -379,24 +364,7 @@ a {
     flex-direction: column;
     padding: 0;
   }
-  .heading {
-    font-family: Pretendard-Regular;
-    font-size: 14px;
-  }
 
-  .project_container {
-    margin-bottom: 2rem;
-  }
-
-  .logo_container {
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    gap: 1rem;
-    margin: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
   .row .row_1,
   .row .row_2 {
     padding: 0;
