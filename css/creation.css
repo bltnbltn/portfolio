@@ -66,7 +66,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
-  .logo_container {
+  
+  .drawing_container {
     width: 100%;
     display: grid;
     justify-content: center;
