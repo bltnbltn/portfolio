@@ -169,6 +169,8 @@ a {
 
 .main_title {
   color: var(--text-color);
+  max-width: 900px;
+  margin: auto;
   text-align: center;
   font-family: ivypresto-display, serif;
   font-weight: 300;
@@ -241,11 +243,11 @@ a {
 }
 
 .linkdin path:hover {
-  fill: #0a66c2;
+  fill: #54be78;
 }
 
 .behance path:hover {
-  fill: blue;
+  fill: #54be78;
   width: 24px;
   height: 24px;
 }
