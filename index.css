@@ -197,7 +197,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(219 233 215);
+  background: rgb(167,204,184);
+  background: linear-gradient(54deg, rgba(167,204,184,1) 0%, rgba(163,242,231,1) 100%);
   position: relative;
   width: 82vw;
   height: 32vw;
