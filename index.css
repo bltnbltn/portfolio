@@ -181,12 +181,6 @@ a {
 }
 
 /* Project --------------------------------- */
-.project_container {
-  display: flex;
-  justify-content: center;
-  /* padding: 40px; */
-}
-
 .myLogos {
   width: 100%;
   text-align: center;
@@ -194,44 +188,51 @@ a {
 }
 
 .project {
+  min-height: 60px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: minmax(auto, 1fr);
+  grid-template-columns: 1fr 0.5fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 200px;
+  display: grid;
+  border: #4e4e4e 1px solid;
+}
+/* display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(167, 204, 184);
+  background: linear-gradient(
+    54deg,
+    rgba(167, 204, 184, 1) 0%,
+    rgba(163, 242, 231, 1) 100%
+  );
+  position: relative;
+  width: 80vw;
+  height: 30vw;
+  margin: auto; */
+
+.project img {
+  grid-area: 1 / 1 / 3 / 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project_dis {
+  grid-area: 1 / 2 / 3 / 3;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(167,204,184);
-  background: linear-gradient(54deg, rgba(167,204,184,1) 0%, rgba(163,242,231,1) 100%);
-  position: relative;
-  width: 82vw;
-  height: 32vw;
-  margin: auto;
+  background-color: #000000;
 }
 
-.project h1 {
+.project_dis h1 {
   text-align: center;
-  color: var(--text-color);
-  font-family: ivypresto-display, serif;
-  font-size: 40px;
+  color: var(--white-text-color);
+  font-family: Pretendard-Regular;
+  font-size: 20px;
 }
-
-/* .row {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 1rem 0;
-}
-
-.row img {
-  width: 100%;
-}
-
-.row .row_1 {
-  padding-right: 1rem;
-  border-radius: 6px;
-}
-
-.row .row_2 {
-  padding-left: 1rem;
-  border-radius: 6px;
-} */
 
 /* Footer --------------------------------- */
 
@@ -371,19 +372,29 @@ a {
     padding: 4rem 0rem;
   }
 
-  .project_container {
-    margin-bottom: 2rem;
-  }
   .myLogo {
     font-size: 20px;
     font-family: Pretendard-Medium;
     color: var(--text-color);
     letter-spacing: 2px;
   }
+  .project {
+    display: block;
+  }
 
+  .project img {
+    display: block;
+  }
+
+  .project_dis {
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .project h1 {
     font-size: 18px;
   }
+
   .navbar {
     flex-direction: column;
     align-items: flex-start;
