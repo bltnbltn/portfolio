@@ -394,12 +394,32 @@ a {
 
   .project_dis {
     height: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px;
   }
 
-  .project h1 {
-    font-size: 18px;
+  .project_dis h1 {
+    text-align: center;
+    color: var(--white-text-color);
+    font-family: Pretendard-Regular;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .project_dis h2 {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ffffff1f;
+    border-radius: 16px;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+    font-family: Pretendard-Regular;
+  }
+
+  .project_dis p {
+    color: #ffffff;
+    font-family: Pretendard-Regular;
+    border-radius: 16px;
   }
 
   .navbar {

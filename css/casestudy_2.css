@@ -1,7 +1,12 @@
-.casestudy_2_slide1 img {
+.casestudy_size img {
   display: flex;
   margin: auto;
   width: 80%;
   height: 80%;
   padding: 40px;
+}
+
+.casestudy_2_demo h1 {
+  text-align: center;
+  font-family: pretendard-Medium;
 }
