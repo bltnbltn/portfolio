@@ -219,12 +219,13 @@ a {
   text-align: center;
   color: var(--white-text-color);
   font-family: Pretendard-Regular;
-  font-size: 20px;
+  font-size: 34px;
   margin-bottom: 30px;
 }
 
 .project_dis h2 {
-  font-size: 16px;
+  text-align: center;
+  font-size: 18px;
   color: #ffffff;
   background-color: #ffffff1f;
   border-radius: 16px;
@@ -232,6 +233,11 @@ a {
   font-family: Pretendard-Regular;
 }
 
+.project_dis p {
+  color: #ffffff;
+  font-family: Pretendard-Regular;
+  border-radius: 16px;
+}
 /* Footer --------------------------------- */
 
 .social_link,
@@ -391,6 +397,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .project h1 {
     font-size: 18px;
   }
