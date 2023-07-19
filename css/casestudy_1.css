@@ -38,12 +38,8 @@
 }
 /* MOBILE, ~ 767 */
 @media screen and (max-width: 767px) {
-  .casestudy {
-    margin-top: 100px;
-  }
-
   .casestudy_1_dis {
     width: 80%;
-    padding: 85px 0px;
+    padding-top: 85px;
   }
 }
