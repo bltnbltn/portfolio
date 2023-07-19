@@ -1,0 +1,44 @@
+.inter_1,
+.inter_2,
+.inter_3,
+.inter_4 {
+  display: flex;
+  justify-content: center;
+}
+
+.inter_4 {
+  margin-bottom: 100px;
+}
+
+.casestudy_1_dis {
+  padding: 40px 0px;
+  margin: auto;
+  width: 50%;
+  color: var(--black-text-color);
+  font-family: Pretendard-Regular;
+  font-size: 16px;
+}
+
+.casestudy_1_dis h1 {
+  font-family: Pretendard-Bold;
+}
+
+.casestudy_1_dis h2 {
+  font-size: 20px;
+  font-family: Pretendard-Bold;
+  margin-bottom: 16px;
+}
+.casestudy_1_dis li {
+  font-family: Pretendard-Bold;
+}
+
+.casestudy_1_dis p {
+  font-family: Pretendard-Light;
+  line-height: 160%;
+}
+/* MOBILE, ~ 767 */
+@media screen and (max-width: 767px) {
+  .casestudy {
+    margin-top: 100px;
+  }
+}
