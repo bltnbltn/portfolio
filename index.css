@@ -388,6 +388,7 @@ a {
   .project_1,
   .project_2 {
     display: block;
+    margin-bottom: 60px;
   }
 
   .project_1 img,
