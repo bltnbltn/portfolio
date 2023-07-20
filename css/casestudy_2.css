@@ -84,4 +84,9 @@
   .casestudy_size h1 {
     font-size: 40px;
   }
+
+  .casestudy_2_objecive img {
+    padding: 0px;
+    margin-top: 24px;
+  }
 }
