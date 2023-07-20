@@ -28,7 +28,11 @@
   font-family: Pretendard-Bold;
   margin-bottom: 16px;
 }
+
 .casestudy_1_dis li {
+  margin-bottom: 8px;
+}
+.casestudy_1_dis li span {
   font-family: Pretendard-Bold;
 }
 
@@ -36,6 +40,14 @@
   font-family: Pretendard-Light;
   line-height: 160%;
 }
+
+.overview {
+  margin-bottom: 100px;
+}
+.overveiw_layout ul {
+  padding: 0px 100px 0px 0px;
+}
+
 /* MOBILE, ~ 767 */
 @media screen and (max-width: 767px) {
   .casestudy_1_dis {
