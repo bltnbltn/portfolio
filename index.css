@@ -212,7 +212,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-color: #181818;
+  text-align: center;
 }
 
 .project_dis h1 {
@@ -232,16 +233,13 @@ a {
   padding: 4px 10px;
   font-family: Pretendard-Regular;
   border: none;
-  display: flex;
-  justify-content: center;
-  margin: auto;
+  margin-bottom: 34px;
 }
 
 .project_dis p {
   color: #ffffff;
   font-family: Pretendard-Regular;
   border-radius: 16px;
-  margin-top: 32px;
 }
 /* Footer --------------------------------- */
 
