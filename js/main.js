@@ -8,7 +8,7 @@ toggleBtn.addEventListener('click', (e) => {
   e.preventDefault();
   menu.classList.toggle('active');
   if (menu.classList.contains('active')) {
-    navbar.style.padding = '14px 0px 0px 0px';
+    navbar.style.padding = '10px 0px 0px 0px';
   } else {
     navbar.style.padding = '14px 0px';
   }
