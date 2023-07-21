@@ -85,7 +85,8 @@
     display: block;
   }
   .casestudy_size {
-    padding: 0px 60px 0px 60px;
+    width: 90%;
+    padding: 0px;
   }
   .casestudy_size h1 {
     font-size: 40px;
