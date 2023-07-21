@@ -51,9 +51,11 @@
 /* MOBILE, ~ 767 */
 
 @media screen and (max-width: 767px) {
+  }
   .heading {
     margin-bottom: 2rem;
   }
+
   .heading h1 {
     font-size: 18px;
   }
