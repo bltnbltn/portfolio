@@ -81,6 +81,10 @@
 
 /* MOBILE, ~ 767 */
 @media screen and (max-width: 767px) {
+  .casestudy_2_hero {
+    margin-top: 84px;
+  }
+  
   .overveiw_layout {
     display: block;
   }
