@@ -29,7 +29,13 @@
   font-family: ivypresto-display, serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 50px;
+  font-size: 56px;
+  margin-bottom: 40px;
+}
+
+.casestudy_size h2 {
+  font-family: pretendard-Light;
+  font-size: 30px;
   margin-bottom: 16px;
 }
 
