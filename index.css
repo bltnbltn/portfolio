@@ -214,14 +214,13 @@ a {
 .project_dis {
   grid-area: 1 / 2 / 3 / 3;
   display: flex;
-  justify-content: center;
+  padding-left: 20px;
+  /* justify-content: center; */
   align-items: center;
   background-color: #181818;
-  text-align: center;
 }
 
 .project_dis h1 {
-  text-align: center;
   color: var(--white-text-color);
   font-family: Pretendard-Regular;
   font-size: 34px;
@@ -397,19 +396,17 @@ a {
   }
 
   .project_dis {
-    height: 100px;
-    padding: 80px;
+    height: 200px;
   }
 
   .project_dis h1 {
-    text-align: center;
     color: var(--white-text-color);
     font-family: Pretendard-Regular;
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
   }
 
-  .project_dis h2 {
+  .project_dis button {
     text-align: center;
     font-size: 14px;
     color: #ffffff;
@@ -421,8 +418,9 @@ a {
   }
 
   .project_dis p {
+    font-size: 18px;
     color: #ffffff;
-    font-family: Pretendard-Regular;
+    font-family: Pretendard-Light;
     border-radius: 16px;
   }
 
