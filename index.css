@@ -24,7 +24,7 @@
   --text-color: #101010;
   --white-text-color: #fff;
   --background-color: #fff;
-  --accent-color: #54be78;
+  --accent-color: #3f93fa;
 }
 
 /* Default --------------------------------- */
@@ -56,6 +56,10 @@ a {
 }
 
 /* Nav --------------------------------- */
+.nav_logo img {
+  width: 60px;
+  /* height: 30px; */
+}
 
 .navbar {
   display: flex;
@@ -266,18 +270,10 @@ a {
   margin: 2rem;
 }
 
-.mail path:hover {
-  fill: #54be78;
-}
-
-.linkdin path:hover {
-  fill: #54be78;
-}
-
+.mail path:hover,
+.linkdin path:hover,
 .behance path:hover {
-  fill: #54be78;
-  width: 24px;
-  height: 24px;
+  fill: var(--accent-color);
 }
 
 /* Modal Images */
@@ -362,6 +358,9 @@ a {
 /* MOBILE, ~ 767 */
 
 @media screen and (max-width: 767px) {
+  .navbar .navbar_toggleBtn {
+    padding: 20px 0px;
+  }
   .wrapper {
     width: 90%;
   }
