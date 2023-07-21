@@ -288,6 +288,7 @@ a {
 
 /* Modal Content (Image) */
 .modal-content {
+  padding-top: 120px;
   margin: auto;
   display: block;
   width: 80%;
