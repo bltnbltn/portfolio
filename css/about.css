@@ -69,7 +69,7 @@
 
 .container {
   margin-top: 80px;
-  border-top: 0.5px solid var(--accent-color);
+  border-top: 0.5px solid #d6dee9;
   background: #eceff3;
   width: 100%;
   display: flex;
