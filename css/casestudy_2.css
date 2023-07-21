@@ -1,3 +1,11 @@
+/* Colours ---------------------------------  */
+:root {
+  --text-color: #101010;
+  --white-text-color: #fff;
+  --background-color: #fff;
+  --accent-color: #3f93fa;
+}
+
 .casestudy_size {
   display: block;
   max-width: 1000px;
@@ -78,13 +86,33 @@
   list-style-position: inside;
   margin-bottom: 24px;
 }
+.next_casestudy {
+  display: flex;
+  justify-content: center;
+}
+
+.next_casestudy button {
+  width: 200px;
+  height: 60px;
+  background-color: rgb(232, 234, 237);
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.next_casestudy button a {
+  color: (var(--text-color));
+}
+.next_casestudy button a:hover {
+  color: var(--accent-color);
+}
 
 /* MOBILE, ~ 767 */
 @media screen and (max-width: 767px) {
   .casestudy_2_hero {
     margin-top: 84px;
   }
-  
+
   .overveiw_layout {
     display: block;
   }
