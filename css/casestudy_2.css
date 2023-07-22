@@ -87,18 +87,21 @@
   margin-bottom: 24px;
 }
 
+/*  Bottom Casestduy Button*/
+
 .next_casestudy {
   width: 90%;
+  margin-top: 60px;
+}
+
+.casestudy_right {
   display: flex;
   justify-content: end;
-  margin: auto;
 }
 
 .casestudy_left {
-  width: 90%;
   display: flex;
   justify-content: start;
-  margin: auto;
 }
 
 .next_casestudy img {
@@ -108,9 +111,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
-  background-color: rgb(232, 234, 237);
+  background-color: transparent;
   font-size: 30px;
   border: none;
   cursor: pointer;
@@ -118,18 +119,35 @@
 
 .next_casestudy button a {
   color: (var(--text-color));
+  display: flex;
+  align-items: center;
 }
+
 .next_casestudy a:hover,
 .next_casestudy a:hover path {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.next_casestudy .arrow_left {
+.arrow_left {
   margin-right: 14px;
 }
+
+.arrow_right {
+  margin-left: 14px;
+}
+
 /* MOBILE, ~ 767 */
 @media screen and (max-width: 767px) {
+  .next_casestudy a {
+    font-size: 24px;
+  }
+  .next_casestudy a:hover,
+  .next_casestudy a:hover path {
+    color: var(--text-color);
+    fill: var(--text-color);
+  }
+
   .casestudy_2_hero {
     margin-top: 84px;
   }
