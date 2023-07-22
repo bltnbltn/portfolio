@@ -1,8 +1,8 @@
 /* Branding --------------------------------- */
 
 .heading {
-  margin-top: 6rem;
-  margin-bottom: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
   font-family: ivypresto-display, serif;
   font-weight: 300;
   font-style: normal;
@@ -51,31 +51,32 @@
 /* MOBILE, ~ 767 */
 
 @media screen and (max-width: 767px) {
-}
-.heading {
-  margin-bottom: 2rem;
-}
+  .heading {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
 
-.heading h1 {
-  font-size: 18px;
-}
+  .heading h1 {
+    font-size: 18px;
+  }
 
-.logo_container {
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  gap: 1rem;
-  margin: auto;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
+  .logo_container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 
-.drawing_container {
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  gap: 1rem;
-  margin: auto;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  .drawing_container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
