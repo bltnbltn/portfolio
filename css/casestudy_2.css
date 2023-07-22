@@ -86,9 +86,19 @@
   list-style-position: inside;
   margin-bottom: 24px;
 }
+
 .next_casestudy {
+  width: 90%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
+  margin: auto;
+}
+
+.casestudy_left {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  margin: auto;
 }
 
 .next_casestudy img {
