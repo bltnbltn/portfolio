@@ -143,6 +143,7 @@
   .next_casestudy a {
     font-size: 24px;
   }
+
   .next_casestudy a:hover,
   .next_casestudy a:hover path {
     color: var(--text-color);
@@ -156,10 +157,12 @@
   .overveiw_layout {
     display: block;
   }
+
   .casestudy_size {
     width: 90%;
     padding: 0px;
   }
+
   .casestudy_size h1 {
     font-size: 50px;
   }
