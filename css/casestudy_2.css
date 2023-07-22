@@ -115,6 +115,7 @@
   background-color: transparent;
   font-size: 30px;
   border: none;
+  padding: 0px;
   cursor: pointer;
 }
 
@@ -142,12 +143,6 @@
 @media screen and (max-width: 767px) {
   .next_casestudy a {
     font-size: 24px;
-  }
-
-  .next_casestudy a:hover,
-  .next_casestudy a:hover path {
-    color: var(--text-color);
-    fill: var(--text-color);
   }
 
   .casestudy_2_hero {
